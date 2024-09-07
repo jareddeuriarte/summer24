@@ -1,0 +1,43 @@
+body{
+    margin:0;
+}
+
+.flex-wrapper{
+    display: flex;
+    height: 100vh;
+    flex-wrap:nowrap;
+}
+
+
+.flex-wrapper img{
+    max-height: 100%;
+    padding: 1em;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .flex-wrapper{
+        display: flex;
+        height: 100vh;
+        flex-direction: column;
+    }
+
+
+}
+
+
+/* @media only screen and (min-width: 800px) and (orientation: landscape) {
+
+    .flex-wrapper {
+        display: block;
+        height: 100vh;
+    }
+
+} */
+
+
+
+
